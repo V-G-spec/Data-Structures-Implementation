@@ -70,20 +70,9 @@ public class exchange {
                 }
             }
 
-            // Now sort for other 10, too much effort
         } return ;
     }
     
-    public static void straightRadix(int[] A, int left, int right, int numDig) {
-        // int length = String.valueOf(A[left]).length();
-        
-        for(int i=0; i<numDig; i++){
-            int dividend = 10^(i+1);
-            for (int j=left; j<=right; j++){
-
-            }
-        }
-    }
 
 
 
